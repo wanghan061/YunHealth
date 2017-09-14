@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.coder.yun">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.RegActivity"/>
+        <activity android:name=".activity.AddPersonActivity"/>
+        <activity android:name=".activity.normal.NorFileActivity"/>
+        <activity android:name=".activity.NormalUserActivity"/>
+        <activity android:name=".activity.normal.ExpertAppointActivity"/>
+        <activity android:name=".activity.doctor.MobileNote"/>
+        <activity android:name=".activity.AboutUs"/>
+        <activity android:name=".activity.ChangePasswordActivity"/>
+        <activity android:name=".activity.doctor.CheckRoom"/>
+        <activity android:name=".activity.doctor.CheckNote"/>
+        <activity android:name=".activity.normal.QuestionConsultActivity"/>
+        <activity android:name=".activity.normal.QuestionContext"/>
+        <activity android:name=".activity.doctor.FileContext"/>
+        <activity android:name=".activity.PersonInfo"/>
+        <activity android:name=".activity.PersonInfoEdit"/>
+        <activity android:name=".activity.normal.DrugRemindActivity"/>
+        <activity android:name=".activity.nurse.AddRemind"/>
+        <activity android:name=".activity.nurse.AdviceExecute"/>
+        <activity android:name=".activity.nurse.WardInspection"/>
+        <activity android:name=".activity.nurse.RecordContext"/>
+        <activity android:name=".activity.nurse.AddBed"/>
+        <activity android:name=".activity.nurse.BedManage"/>
+        <activity android:name=".activity.doctor.FileManage"/>
+        <activity android:name=".activity.nurse.WardInspectRecord"/>
+        <activity android:name=".activity.nurse.AddWardRecord"/>
+        <activity android:name=".activity.doctor.MobileNoteList"/>
+        <activity android:name=".activity.doctor.DoctorAdviceList"/>
+        <activity android:name=".activity.doctor.DoctorCheckAdvice"/>
+        <activity android:name=".activity.doctor.AddDoctorAdvice"/>
+        <activity android:name=".activity.doctor.ProblemFeedback"/>
+        <activity android:name=".activity.doctor.ProblemDetail"/>
+        <activity android:name=".activity.normal.MyQuestionList"/>
+        <activity android:name=".activity.normal.CheckAnswer"/>
+        <activity android:name=".activity.doctor.HealthList"/>
+        <activity android:name=".activity.normal.PerFileContext"/>
+        <activity android:name=".activity.normal.AppointDetail"/>
+        <activity android:name=".activity.DoctorUserActivity"/>
+        <activity android:name=".activity.NurseUserActivity"/>
+        <activity android:name=".activity.nurse.EditBedInfo"/>
+        <activity android:name=".activity.doctor.NoteDetail"/>
+        <activity android:name=".activity.DoctorMyAppoint"/>
+        <activity android:name=".activity.PatientMyAppoint"/>
+        <activity android:name=".activity.normal.NormalCheckAdvice"/>
+        <activity android:name=".activity.normal.AdviceDetail"/>
+        <activity android:name=".activity.doctor.CheckMyQuestion"/>
+        <activity android:name=".activity.doctor.MyQuestionDetail"/>
+        <activity android:name=".activity.nurse.BedDetail"/>
+        <activity android:name=".activity.nurse.BedDetailChange"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zhicheng">
+        <item>主任医师</item>
+        <item>副主任医师 </item>
+        <item>主治医师</item>
+        <item>医师</item>
+        <item>医士</item>
+    </string-array>
+
+    <string-array name="sex">
+
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>内科</item>
+        <item>外科</item>
+        <item>儿科</item>
+        <item>妇科</item>
+        <item>五官科</item>
+        <item>眼科</item>
+        <item>放射科</item>
+    </string-array>
+
+    <string-array name="yizhuleixing">
+
+        <item>长期医嘱</item>
+        <item>临时医嘱</item>
+        <item>主医嘱</item>
+        <item>从医嘱</item>
+    </string-array>
+
+
+</resources>
